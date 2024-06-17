@@ -2,7 +2,7 @@
 title: "Against Wordpress"
 publishDate: "27 January 2024"
 description: "A brief explanation of why you shoudl not use Wordpress for you project"
-tags: ["example", "blog", "wordpress"]
+tags: ["CMS", "wordpress"]
 ogImage: "/social-card.png"
 ---
 
