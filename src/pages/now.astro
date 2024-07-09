@@ -1,0 +1,54 @@
+---
+// import aboutImg from "@/assets/about-astro.png";
+import PageLayout from "@/layouts/Base.astro";
+// import { Image } from "astro:assets";
+
+const meta = {
+	description: "Stew Milne current interests and activities.",
+	title: "Stewart Milne | Now",
+};
+---
+
+<PageLayout meta={meta}>
+	<div class="space-y-6">
+		<h1 class="title">Now!</h1>
+		<p>Current activities...</p>
+		<!-- <div class="flex justify-center">
+			<Image
+				alt="A cartoon cactus looking at the 'Astro.build' logo"
+				fetchpriority="high"
+				loading="eager"
+				src={aboutImg}
+			/>
+		</div> -->
+		<p>Reading:</p>
+		<ul class="list-inside list-disc">
+			<li>
+				<a href="https://questlove.com/creative-quest-by-questlove/" target="_blank"
+					>Creative Quest by Questlove</a>
+			</li>
+			<li>
+				<a
+					href="https://www.readings.com.au/product/9781838858636/the-creative-act--rick-rubin--2023--9781838858636#"
+					target="_blank">The Creative Act: A Way of Being by Rick Rubin</a>
+			</li>
+		</ul>
+		<p>Watching:</p>
+		<ul class="list-inside list-disc">
+			<li>
+				<a href="https://www.youtube.com/watch?v=su6WA0kUUJE" target="_blank"
+					>YouTube: Web Design Engineering With the New CSS | Matthias Ott | CSS Day 2024</a>
+			</li>
+			<li>
+				<a
+					href="https://www.youtube.com/watch?v=PyHchEs9g5o&t=32s"
+					target="_blank">YouTube: Create a Color System in Figma using Variables & Tokens</a>
+			</li>
+			<li>
+				<a
+					href="https://www.youtube.com/watch?v=mPXljWeWu3g"
+					target="_blank">YouTube: Your next component - Dan Mall (Config 2023)</a>
+			</li>
+		</ul>
+	</div>
+</PageLayout>
